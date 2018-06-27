@@ -420,7 +420,8 @@ class PlayerSprite(SubSprite, singlePersonFishingVessel):
         self.speed = self.speeds[mapBase.iat[self.getTile()]]
 
 
-class critters(Object)
+class critters(Object):
+    pass
 
 
 
