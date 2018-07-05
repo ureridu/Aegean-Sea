@@ -420,8 +420,24 @@ class PlayerSprite(SubSprite, singlePersonFishingVessel):
         self.speed = self.speeds[mapBase.iat[self.getTile()]]
 
 
-class critters(Object):
-    pass
+
+class Movers(SubSprite, Object):
+    def __init__(self, img, xLoc=0, yLoc=0):
+        super().__init__(img, xLoc, yLoc)
+
+        self.randRad = 10
+
+
+    def randMove(self):
+        self.
+
+
+
+
+
+class critters(Movers):
+    def __init__(self):
+        self.meat = 1
 
 
 
